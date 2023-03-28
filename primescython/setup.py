@@ -2,7 +2,7 @@ from setuptools import setup, Extension
 from Cython.Build import cythonize
 
 extensions = [
-    Extension("primes", ["../primes/primes.pyx"])
+    Extension("primes", ["../primescython/primes.pyx"])
 ]
 
 setup(
