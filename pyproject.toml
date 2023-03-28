@@ -1,5 +1,5 @@
 [project]
-name = "test-cython-primes"
+name = "primecython"
 version = "0.0.1"
 authors = [
   { name="Marco Salvalaggio", email="marco.salvalaggio@bip-group.com" },
