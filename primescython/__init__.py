@@ -1,3 +1,3 @@
-from .primes_wrap import primes_cython
+from .primes import primes
 
-__version__ = "0.0.3"
+__version__ = "0.0.4"
