@@ -1,1 +1,1 @@
-include primescython/primes.cp39-win_amd64.pyd
+include primescython/primes.pyx
