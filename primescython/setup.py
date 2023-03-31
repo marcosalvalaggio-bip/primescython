@@ -6,13 +6,7 @@ extensions = [
     Extension("primes", ["../primescython/primes.pyx"])
 ]
 
-if platform == "darwin":
-    setup(
-        name="primes-mac",
-        ext_modules=cythonize(extensions)
-    )
-else:
-    setup(
+setup(
         name="primes-mac",
         ext_modules=cythonize(extensions)
     )
